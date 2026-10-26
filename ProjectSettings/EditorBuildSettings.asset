@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HelloWorld.unity
+    guid: e8e383b2ea84da644baf6ad3e3191b54
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: eb4206fed177b554a93ed5855b4581d7, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5ac69604f54891b4ab073ddc22092245, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 28579216bd4101541a00eb0613eedfc7, type: 2}
